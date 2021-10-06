@@ -1,0 +1,70 @@
+.tour {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: aliceblue;
+  border: 1px solid #2345d5;
+  border-radius: 30px;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  letter-spacing: 0.1rem;
+}
+
+img {
+  height: 20vh;
+  width: 95%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.image {
+  text-align: center;
+}
+
+.info {
+  padding: 0 1rem;
+  font-size: 0.9rem;
+}
+
+.primary-btn {
+  text-transform: capitalize;
+  color: #2345d5;
+  background-color: transparent;
+  padding: 0.2rem 1rem;
+  border: 1px solid #2345d5;
+  border-radius: 8px;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: all 1s;
+}
+.primary-btn:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.push-right {
+  text-align: center;
+}
+
+.price {
+  background-color: aqua;
+  border-radius: 8px;
+  padding: 0.2rem;
+}
+
+.read-more {
+  border: none;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  background-color: transparent;
+  color: #2345d5;
+  cursor: pointer;
+}
